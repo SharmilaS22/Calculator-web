@@ -1,0 +1,144 @@
+body{
+	background-color: #29a183;
+}
+h1{
+	font-weight: 600px;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 70px;
+    color: #8DE3E3;
+    margin: 0;
+    text-align: center;
+}
+.outline{
+	position: relative;
+	height: 500px;
+	width: 400px;
+	border-radius: 10px;
+	background-color: #FA8072;
+	box-shadow: 10px 10px #888888;
+	margin: 0 auto;
+}
+.inline{
+	position: relative;
+	height: 480px;
+	width: 380px;
+	border-radius: 10px;
+	background-color: #F0E0D2;
+	left: 10px;
+	top: 10px;
+}
+.displaybox{
+	position: relative;
+	height: 160px;
+	width: 360px;
+	border-radius: 5px;
+	background-color: white;
+	left: 10px;
+	top: 10px;
+	color: blue;
+}
+.res1{
+    position: relative;
+    height: 20px;
+    width: 300px;
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: rgba(0,0,0,0.5);
+    float: right;
+}
+.res2{
+    position: relative;
+    height: 20px;
+    width: 300px;
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: rgba(0,0,0,0.5);
+    float: right;
+}
+#value1, #value2 {
+	position: relative;
+	bottom: 40px;
+}
+.oper{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-top: 0;  
+    font-size: 40px;
+    color: rgba(0,0,0,0.5);
+}
+#opera{
+	position: relative;
+    bottom: 20px;
+    margin-left: 10px;
+    font-size: 50px;
+    font-weight: 500;
+}
+.answer{
+    position: relative;
+    height: 50px;
+    width: 360px;
+    text-align: right;
+    margin-bottom: 15px;
+    float: right;
+    font-size: 40px;
+    color: rgba(0,0,0,0.5);
+}
+.numpad{
+	position: relative;
+	height: 290px;
+	width: 360px;
+	border-radius: 5px;
+	background-color: white;
+	left: 10px;
+	top: 20px;
+}
+.numbers{
+	width: 220px;
+	height: auto;
+	position: relative;
+	left: 10px;
+	top: 15px;
+}
+.operations{
+	position: relative;
+	left: 253px;
+	bottom: 255px;
+	height: 250px;
+	width: 70px;	
+	border-style: double;
+	background-color: #3ad3e0;
+	color: #39a6af;
+	padding: 10px;
+	border: 4px inset #3ad3e0;
+}
+#plus ,#min ,#into ,#div , #del, #clearall{
+	margin: 4px;
+}
+#plus:hover ,#min:hover ,#into:hover ,#div:hover , #del:hover , #clearall:hover{
+    color: #ddf7f8;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#clearall{
+	color: #799BB8;
+}
+input{
+	background-color: #ECA3C4;
+	color: #5168C7;
+	border-radius: 4px;
+	padding: 10px;
+	height: 62px;
+	width: 62px;
+	font-weight: 900;
+	border-radius: 30%;
+	margin: 2px;
+}
+input:hover{
+    background-color: rgba(255,255,255,0.4);
+    cursor: pointer;
+}
